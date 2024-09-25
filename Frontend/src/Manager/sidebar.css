@@ -1,0 +1,208 @@
+/* Add these styles to your existing style.css file */
+
+
+.page-wrapper {
+  display: flex;
+}
+
+.main-header {
+  width: calc(100% - 260px); /* Adjust the width based on the sidebar width */
+  background-color: #fff; /* Add your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow if needed */
+  z-index: 100;
+  margin-left: 260px; /* Match the sidebar width */
+}
+
+.content-wrapper {
+  flex: 1;
+  margin-left: 260px; /* Adjust to match the sidebar width */
+  padding-top: 60px; /* Adjust to match the header height */
+}
+
+.content {
+  padding: 20px;
+}
+
+
+
+
+.image-container {
+  flex: 0 0 50%; /* 30% of the height, fixed height */
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: 20px;
+  margin-top: 20px;  /* Preserve aspect ratio and cover the container */
+}
+
+
+
+
+
+
+.page-wrapper {
+  display: flex;
+}
+
+.main-header {
+  width: calc(100% - 260px); /* Adjust the width based on the sidebar width */
+  background-color: #fff; /* Add your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow if needed */
+  z-index: 100;
+  margin-left: 260px; /* Match the sidebar width */
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.sidebar-toggle {
+  order: -1; /* Move the sidebar toggle to the beginning */
+}
+
+.page-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-form {
+  margin-right: auto; /* Push the search form to the right */
+}
+
+#search-input {
+  width: 200px; /* Adjust the width as needed */
+}
+
+.custom-dropdown,
+.dropdown.user-menu {
+  margin-left: 15px; /* Add some spacing between elements */
+}
+
+.notify-toggler,
+.custom-dropdown-toggler {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.user-image {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Rest of your existing styles... */
+
+
+
+/* Sidebar styles */
+#left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 260px;
+  background-color: #333; /* Change background color as needed */
+  color: #fff; /* Text color */
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Updated to move the content to the left */
+  padding: 15px;
+  text-align: center;
+  position: relative; /* Added to position the line relative to .app-brand */
+}
+
+.app-brand img {
+  max-width: 80px; /* Adjust as needed */
+}
+
+.brand-name {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* New div for the line */
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar-left {
+  flex: 1;
+  padding: 15px;
+}
+
+/* Sidebar menu styles */
+#sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #555; /* Change hover background color as needed */
+}
+
+/* Icons styles */
+.mdi {
+  margin-right: 8px;
+}
+
+/* Scrollbar styles (optional) */
+[data-simplebar] {
+  position: relative;
+  flex-direction: column;
+}
+
+[data-simplebar] .simplebar-scroll-content {
+  flex: 1;
+  flex-direction: column;
+}
+
+[data-simplebar] .simplebar-scrollbar::before {
+  background-color: #888; /* Scrollbar color */
+}

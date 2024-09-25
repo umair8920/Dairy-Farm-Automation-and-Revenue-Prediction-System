@@ -1,0 +1,10 @@
+# Ignore node_modules in backend and frontend
+Backend/node_modules/
+Frontend/node_modules/
+
+# Ignore Python virtual environment
+pythonbackend/venv/
+
+# Ignore other common files
+*.log
+.DS_Store

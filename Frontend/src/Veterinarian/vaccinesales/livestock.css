@@ -1,0 +1,220 @@
+/* styles.css */
+
+/* Style the table */
+
+table {
+    flex: 1;
+    width:80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+  
+    border: 1px solid #ddd;
+   
+}
+h3
+{  flex: 1;
+    align-self: center;
+}
+
+/* Style table header */
+thead th {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Style table rows */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/* Style table data cells */
+td {
+    padding: 10px;
+    color: black;
+}
+
+/* Add some spacing to the table container */
+.container {
+    margin-top: 20px;
+    
+}
+
+/* Style table hover effect on rows */
+tbody tr:hover {
+    background-color: #ABB2B9 ;
+}
+
+/* Style Bootstrap pagination (if used) */
+.pagination {
+    margin-top: 20px;
+}
+
+/* Add borders to table cells */
+td, th {
+    border: 1px solid #ddd;
+}
+
+/* Center-align text in the ID column */
+td:first-child {
+    text-align: center;
+}
+
+/* Add some spacing to the table headers */
+thead th {
+    padding: 12px;
+}
+
+/* Add a shadow to the table */
+table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style Bootstrap pagination (if used) */
+.pagination {
+    margin-top: 20px;
+}
+
+/* Add rounded corners to the table */
+table {
+    border-radius: 5px;
+}
+
+/* Style Bootstrap alert (if used) */
+.alert {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+/* Style table on small screens */
+@media (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    table td {
+        border: 1px solid #ccc;
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 150px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #000080;
+    border-color: #000080;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+    opacity: 0.8;
+    
+}
+
+/* styles.css */
+
+.centered-heading {
+    text-align: center; /* Center-align the text */
+    font-size: 24px;   /* Adjust the font size as needed */
+    color: #000080;    /* Set the text color */
+    font-weight: bold; /* Make the text bold (if desired) */
+    margin-top: 30px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 120px;
+  }
+  
+  button.button-link {
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #007bff; /* Change the background color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.button-link:hover {
+    background-color: #0056b3; /* Change the hover color as needed */
+  }
+  
+
+
+
+  .container101 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+  }
+  
+ 
+  .textContainer101 {
+    border-width: 1px;
+    border-color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .label101 {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .amount101 {
+    font-size: 16px;
+  }
+  

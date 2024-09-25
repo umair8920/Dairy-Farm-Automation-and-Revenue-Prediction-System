@@ -1,0 +1,119 @@
+.container-google-create {
+    display: flex;
+    flex-direction: column;
+  
+   
+    
+   
+  }
+  
+  .container-google {
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: 530px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container-create {
+    width: 800px;
+    margin-left: 430px;
+    margin-top: 10px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container-events {
+    width: 800px;
+    margin-left: 430px;
+    margin-top: 10px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+  
+  }
+  
+  .title-google-create {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .title-google {
+    color: #007bff;
+  }
+  
+  .title-create {
+    color: #6c757d;
+  }
+  
+  .title-events {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #343a40;
+  }
+
+  .event-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+  }
+  
+  .event-table th, .event-table td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    color: #343a40;
+  }
+  
+  .event-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .write-form-control {
+    width: calc(100% - 24px);
+    margin-bottom: 10px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #fff, #f0f0f0);
+    transition: border-color 0.3s ease;
+  }
+  .notification-bell {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bell-icon {
+    color: #ff5722; /* Adjust color as needed */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-right: 5px;
+  }
+  
+  .new-events-count {
+    background-color: #ff5722; /* Adjust background color as needed */
+    color: #ffffff; /* Adjust text color as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

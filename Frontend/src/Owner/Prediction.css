@@ -1,0 +1,38 @@
+.prediction-container {
+    max-width: 700px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 420px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.title-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.result-container {
+    width: calc(33.33% - 10px); /* Subtracting margin to prevent overflow */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(215, 219, 221); 
+    height: 180px;
+    width: 200px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    margin-left: 10px;
+}
